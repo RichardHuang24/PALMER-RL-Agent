@@ -1,4 +1,4 @@
-# 🤖 PALMER: Parallel Attentive LSTM-Transformer Architecture for RL
+# PALMER: Parallel Attentive LSTM-Transformer Architecture for RL
 
 This repository contains the implementation and report for **PALMER**, a novel memory-augmented reinforcement learning architecture that combines LSTM and Transformer modules to handle partial observability in sequential decision-making tasks.
 
@@ -6,7 +6,7 @@ This repository contains the implementation and report for **PALMER**, a novel m
 
 ---
 
-## 🧠 What We Did
+## What We Did
 
 We designed, implemented, and evaluated **PALMER**, a hybrid memory model for deep reinforcement learning. PALMER is developed to address the limitations of existing memory-based RL agents (like PPO-LSTM and PPO-TrXL) in tasks requiring both short-term and long-term memory.
 
@@ -18,7 +18,7 @@ We integrated PALMER into the [CleanRL](https://github.com/vwxyzjn/cleanrl) fram
 
 ---
 
-## 🏗️ PALMER Architecture
+## PALMER Architecture
 
 PALMER is composed of:
 
@@ -33,12 +33,12 @@ PALMER is optimized with the PPO algorithm using Generalized Advantage Estimatio
 
 ---
 
-## ⚙️ Code and Implementation
+##  Code and Implementation
 
 PALMER is built on top of the high-quality RL codebase [CleanRL](https://github.com/vwxyzjn/cleanrl). 
 ---
 
-## 📁 Files
+## Files
 
 - `COMP0258_Report.pdf`: Full academic report with background, architecture, experiments, and analysis.
 - `palmer_policy.py`: Core model implementation.
